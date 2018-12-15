@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+
+//    "module": "commonjs",
+
+    "module": "es2015",
+
+    "target": "ES5",
+
+    "moduleResolution": "node",
+
+    "lib": ["es2015","dom"],
+
+    "baseUrl": "./",
+
+    "sourceMap": true,
+    "inlineSources": true,
+    "jsx": "react",
+    "importHelpers": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
+}

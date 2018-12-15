@@ -1,0 +1,19 @@
+<div>
+    <h2>List of Cources</h2>
+    <table>
+        <tr v-for="item in alltests.TestesList" v-bind:key="item.id" >
+            <td>{{item.id}}</td>
+            <td>{{item.title}}</td>
+            <td style="text-align: right;">
+                &nbsp;&nbsp;
+                {{item.questions.length}}
+            </td>
+            <td>
+                &nbsp;&nbsp;
+                <button @click="settest(item)">
+                    TEST
+                </button>
+            </td>
+        </tr>
+    </table>
+</div>

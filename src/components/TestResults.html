@@ -1,0 +1,22 @@
+<div>
+    <h1>Results</h1>
+
+    <table>
+        <tr v-for="item in testresults" v-bind:key="item.id">
+            <td>{{item.id}}</td>
+            <td>{{item.question}}</td>
+            <td>{{item.answer_good}}</td>
+            <td :class="{ 'bad': !item.IsRight}">{{item.answer_user}}</td>
+        </tr>
+    </table>
+
+
+    <div class="upra">
+        &nbsp;&nbsp;&nbsp;
+        <button @click="Back2Test()" :disabled="!testisrunning">Back to Test</button>
+        &nbsp;&nbsp;&nbsp;
+        <button @click="cancel()">Main Page</button>
+    </div>
+
+
+</div>

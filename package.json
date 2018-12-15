@@ -1,0 +1,32 @@
+{
+  "name": "Project01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fuse-box": "^3.6.0",
+    "node-sass": "^4.10.0",
+    "opn": "^5.4.0",
+    "postcss-selector-parser": "^5.0.0-rc.4",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.2",
+    "uglify-es": "^3.3.9",
+    "uglify-js": "^3.4.9",
+    "vue-class-component": "^6.3.2",
+    "vue-hot-reload-api": "^2.3.1",
+    "vue-property-decorator": "^7.2.0",
+    "vue-template-compiler": "^2.5.17",
+    "vue-template-es2015-compiler": "^1.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.2"
+  }
+}
